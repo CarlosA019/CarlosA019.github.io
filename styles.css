@@ -166,13 +166,16 @@ nav { position: relative; z-index: 5; }
 .hero { position: relative; isolation: isolate; overflow: clip; }
 .waymo-route {
   position: absolute;
-  z-index: -1;
   top: 0;
-  right: -29vw;
-  width: min(74vw, 930px);
-  height: auto;
+  right: 0;
+  width: 45%;
+  height: 100%;
   pointer-events: none;
-  overflow: hidden;
+  z-index: 0;
+}
+
+body {
+  overflow-x: clip;
 }
 /* Keep the accent farther from the words on narrower screens. */
 @media (max-width: 720px) {
