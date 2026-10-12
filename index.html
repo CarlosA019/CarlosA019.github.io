@@ -10,6 +10,18 @@
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+<!-- Decorative full-page navigation route; edit path coordinates to adjust bends. -->
+<svg class="waymo-route" viewBox="0 0 700 1800" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+  <defs>
+    <linearGradient id="waymo-route-gradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#00C8A8"/>
+      <stop offset="60%" stop-color="#00BCEB"/>
+      <stop offset="100%" stop-color="#178CFF"/>
+    </linearGradient>
+  </defs>
+  <path d="M 230 -100 C 210 150 250 280 420 340 C 580 400 620 520 740 650 C 860 800 650 1000 470 1150 C 270 1320 350 1510 600 1650 C 740 1740 800 1800 900 1900"
+        fill="none" stroke="url(#waymo-route-gradient)" stroke-width="36" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
 <div class="wrap">
 <nav>
 <a class="brand" href="#top">Carlos Alcala</a>
@@ -22,17 +34,6 @@
 </nav>
 <main>
 <section class="hero" id="top"><!-- TODO HERO: Fine-tune the intro and skills list as experience grows. -->
-<!-- Decorative Waymo-inspired navigation route: adjust path points or stroke width here to refine shape later. -->
-<svg class="waymo-route" viewBox="0 0 700 850" preserveAspectRatio="xMidYMin meet" aria-hidden="true" focusable="false">
-  <defs>
-    <linearGradient id="waymo-route-gradient" x1="0" y1="0" x2="0.3" y2="1" gradientUnits="objectBoundingBox">
-      <stop offset="0%" stop-color="#00C8A8"/>
-      <stop offset="56%" stop-color="#00BCEB"/>
-      <stop offset="100%" stop-color="#178CFF"/>
-    </linearGradient>
-  </defs>
-  <path d="M 180 -60 C 180 95 220 162 357 162 C 492 162 516 250 546 380 C 580 527 630 590 765 592" fill="none" stroke="url(#waymo-route-gradient)" stroke-width="38" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>
 <p class="hello">Hi, I'm</p>
 <h1>Carlos Alcala<span class="dot">.</span></h1>
 <p class="bio">I'm a <strong>software engineer</strong> studying Computer Science at <strong>Loyola University Chicago</strong>. I build across software and engineering — from <strong>leading app development and working with databases</strong> to <strong>intelligent systems and mechanical vehicle design</strong>. I like solving problems where technology meets the real world.</p>

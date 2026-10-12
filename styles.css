@@ -161,24 +161,23 @@
 
 /* TODO: Consider a subtle, non-distracting hero accent later. */
 
-/* Decorative Waymo-inspired route. Clip it to the hero so it never creates horizontal scrolling. */
+/* Full-page decorative Waymo route. Kept behind content, with no sideways scrolling. */
+html, body { overflow-x: clip; }
+body { position: relative; }
+body > .wrap { position: relative; z-index: 1; }
 nav { position: relative; z-index: 5; }
-.hero { position: relative; isolation: isolate; overflow: clip; }
+.hero { position: relative; }
 .waymo-route {
   position: absolute;
   top: 0;
   right: 0;
   width: 45%;
   height: 100%;
-  pointer-events: none;
   z-index: 0;
+  overflow: visible;
+  pointer-events: none;
 }
-
-body {
-  overflow-x: clip;
-}
-/* Keep the accent farther from the words on narrower screens. */
 @media (max-width: 720px) {
   .links { gap: 12px; font-size: 12px; }
-  .waymo-route { width: 102vw; right: -79vw; top: 35px; opacity: .65; }
+  .waymo-route { width: 65%; opacity: .35; }
 }
