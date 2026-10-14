@@ -1,8 +1,51 @@
-# Carlos Alcala — Portfolio
 
-This is a static website hosted on GitHub Pages. No build tools or dependencies are required.
+# Carlos Alcala
+**Software Engineering | Computer Science | Engineering & Research**
 
-## File structure
+Welcome to my portfolio repository!
+
+I'm a Computer Science student at Loyola University Chicago with an interest in software engineering, intelligent systems, and hands-on engineering.
+
+I enjoy exploring, learning, and building upon existing work to create better solutions for people.
+
+### [Visit My Portfolio Website ↗](https://carlosa019.github.io/)
+
+---
+
+## About This Portfolio
+
+This repository contains the source code for my personal website, where I share projects, research, and engineering experiences.
+
+Each project includes information about my work, contributions, and images or demonstrations where available.
+
+### Projects & Experience
+
+| Project | Year | Area |
+|---|---|---|
+| Motorcycle Collision Avoidance | 2026 | Public Safety / Simulation |
+| Google Software Engineering Internship | 2025 | Software Engineering |
+| Robotic Hand Research | Ongoing | Robotics / Research |
+| LIGHT Electric Racing | 2025–Present | Engineering / Leadership |
+| Northwestern Solar Car | 2025–Present | Mechanical Engineering |
+| Sheltie | 2024 | Computer Vision / iOS |
+| Kalcom | 2023 | Healthcare / iOS |
+
+Explore these projects on my [portfolio website](https://carlosa019.github.io/#work).
+
+---
+
+## Resume & Links
+
+- **Portfolio:** [carlosa019.github.io](https://carlosa019.github.io/)
+- **Resume:** [View Resume (PDF)](./resume.pdf)
+- **LinkedIn:** [Carlos Alcala](https://www.linkedin.com/in/carlos-alcala-21c708501)
+- **GitHub:** [CarlosA019](https://github.com/CarlosA019)
+
+---
+
+## File Structure
+
+This portfolio is a static website hosted using GitHub Pages. No build tools or external dependencies are required.
 
 - `index.html` — page text, navigation, projects, and galleries.
 - `styles.css` — fonts, colors, layout, responsiveness, and Waymo-style route positioning.
@@ -10,16 +53,21 @@ This is a static website hosted on GitHub Pages. No build tools or dependencies 
 - `assets/` — project images and videos; references appear in `index.html`.
 - `resume.pdf` — PDF opened by the Resume link in the navigation.
 
-## Editing
+### Development & Deployment
 
-To edit the introduction or a project, open `index.html`. To edit fonts, spacing, colors, or the route's size and placement, open `styles.css`. To change the route's exact curve, find `<svg class="waymo-route"` in `index.html` and change its `<path d="...">` coordinates. To change an image, put a new file inside `assets/` and update its `src` in `index.html`. For slideshow behavior, open `script.js`.
+The website is built using HTML, CSS, and JavaScript.
 
-## Publishing
+Updates are made directly to the repository, with GitHub Pages serving the website from the `main` branch.
 
-Upload the **contents** of this folder to the root of `CarlosA019/CarlosA019.github.io` on the `main` branch, replacing the old `index.html`. Keep folder paths as they are, especially `assets/`. GitHub Pages will serve `index.html` automatically.
+---
 
-All existing content and visual styles were carried over from the supplied portfolio; only inline CSS, JavaScript, and embedded media were moved into separate files.
+## Contact
 
-## Troubleshooting
+I'm always happy to connect with people interested in software, engineering, and research.
 
-The route is clipped to the hero so it cannot create sideways scrolling or cover the navigation. The Resume link references `./resume.pdf`; upload that PDF at the same level as `index.html`, `styles.css`, and `script.js` (not inside `assets/`). GitHub Pages may take a minute to refresh after committing.
+- **Email:** [YOUR_EMAIL@gmail.com](mailto:cmalcala5487@gmail.com)
+- **LinkedIn:** [Connect with me ↗](https://www.linkedin.com/in/carlos-alcala-21c708501)
+
+---
+
+*Built and maintained by Carlos Alcala.*
