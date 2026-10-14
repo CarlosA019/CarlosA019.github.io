@@ -178,15 +178,37 @@ nav { position: relative; z-index: 5; }
   .waymo-route { width: 65%; opacity: .35; }
 }
 /* Menti iOS screenshot gallery */
-.menti-carousel { height: 300px; background: #15171b; }
-.menti-carousel .slide { object-fit: contain; object-position: center; }
-@media (max-width: 720px) { .menti-carousel { height: 240px; } }
+.menti-carousel {
+  height: 520px;
+  background: #15171b;
+}
+.menti-carousel .slide {
+  object-fit: contain;
+  object-position: center;
+  background: #111318;
+}
+@media (max-width: 720px) {
+  .menti-carousel {
+    height: 420px;
+  }
+}
 
 /* Display year and project status side by side. */
 .project-tags { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
 .project-tags .status-badge { margin-top: 14px; }
 
 /* Computer vision project: show portrait photo and video without cropping. */
-.computer-vision-carousel { height: 300px; background: #15171b; }
-.computer-vision-carousel .slide { object-fit: contain; object-position: center; }
-@media (max-width: 720px) { .computer-vision-carousel { height: 240px; } }
+.computer-vision-carousel {
+  height: 360px;
+  background: #15171b;
+}
+.computer-vision-carousel .slide {
+  object-fit: contain;
+  object-position: center;
+  background: #111318;
+}
+@media (max-width: 720px) {
+  .computer-vision-carousel {
+    height: 300px;
+  }
+}
