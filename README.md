@@ -66,7 +66,7 @@ Updates are made directly to the repository, with GitHub Pages serving the websi
 I'm always happy to connect with people interested in software, engineering, and research.
 
 - **Email:** [Cmalcala5487@gmail.com](mailto:cmalcala5487@gmail.com)
-- **LinkedIn:** [Connect with me ↗](https://www.linkedin.com/in/carlos-alcala-21c708501)
+- **LinkedIn:** [https://www.linkedin.com/in/carlos-alcala-software ↗](https://www.linkedin.com/in/carlos-alcala-software)
 
 ---
 
