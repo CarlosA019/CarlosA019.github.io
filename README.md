@@ -1,4 +1,3 @@
-
 # Carlos Alcala
 **Software Engineering | Computer Science | Engineering & Research**
 
@@ -26,11 +25,17 @@ Each project includes information about my work, contributions, and images or de
 | Google Software Engineering Internship | 2025 | Software Engineering |
 | Robotic Hand Research | Ongoing | Robotics / Research |
 | LIGHT Electric Racing | 2025–Present | Engineering / Leadership |
+| OpenCV Camera & Servo Experiment | 2025 | Computer Vision / Hardware |
 | Northwestern Solar Car | 2025–Present | Mechanical Engineering |
 | Sheltie | 2024 | Computer Vision / iOS |
+| Menti | 2023 | Mental Health / iOS |
 | Kalcom | 2023 | Healthcare / iOS |
 
-Explore these projects on my [portfolio website](https://carlosa019.github.io/#work).
+Explore the project descriptions and galleries on my [portfolio website](https://carlosa019.github.io/#work).
+
+Additional links:
+- **LIGHT Electric Racing:** [Loyola VLab ↗](https://vlab.cs.luc.edu)
+- **Menti:** [Congressional App Challenge (2023, IL-04) ↗](https://www.congressionalappchallenge.us/23-il04/)
 
 ---
 
@@ -38,7 +43,7 @@ Explore these projects on my [portfolio website](https://carlosa019.github.io/#w
 
 - **Portfolio:** [carlosa019.github.io](https://carlosa019.github.io/)
 - **Resume:** [View Resume (PDF)](./resume.pdf)
-- **LinkedIn:** [Carlos Alcala](https://www.linkedin.com/in/carlos-alcala-21c708501)
+- **LinkedIn:** [Carlos Alcala](https://www.linkedin.com/in/carlos-alcala-software)
 - **GitHub:** [CarlosA019](https://github.com/CarlosA019)
 
 ---
@@ -66,7 +71,7 @@ Updates are made directly to the repository, with GitHub Pages serving the websi
 I'm always happy to connect with people interested in software, engineering, and research.
 
 - **Email:** [Cmalcala5487@gmail.com](mailto:cmalcala5487@gmail.com)
-- **LinkedIn:** [https://www.linkedin.com/in/carlos-alcala-software ↗](https://www.linkedin.com/in/carlos-alcala-software)
+- **LinkedIn:** [Connect with me ↗](https://www.linkedin.com/in/carlos-alcala-software)
 
 ---
 

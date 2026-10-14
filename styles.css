@@ -110,7 +110,6 @@
   background: #111318;
 }
 
-
 /* Motorcycle project styling */
 .motorcycle-project { min-height: 320px; }
 .status-badge {
@@ -134,7 +133,6 @@
   .motorcycle-carousel { height: 235px; }
 }
 
-
 .status-badge.status-continuing {
   color: #f2f7ff;
   background: linear-gradient(90deg, rgba(65,136,255,.20), rgba(85,170,255,.18));
@@ -156,8 +154,6 @@
 .project-link{display:inline-block;align-self:flex-start;margin-top:14px;color:#c3cfe7;font-size:13px;text-decoration:underline;text-underline-offset:4px}.project-link:hover{color:#fff}
 
 .sheltie-carousel{height:265px}.sheltie-carousel .slide{object-fit:contain;background:#f5f5f5}.status-badge.status-year{color:#b8c0cf;background:rgba(154,165,190,.1);border-color:rgba(154,165,190,.28)}@media(max-width:720px){.sheltie-carousel{height:220px}}
-
-
 
 /* TODO: Consider a subtle, non-distracting hero accent later. */
 
@@ -181,3 +177,16 @@ nav { position: relative; z-index: 5; }
   .links { gap: 12px; font-size: 12px; }
   .waymo-route { width: 65%; opacity: .35; }
 }
+/* Menti iOS screenshot gallery */
+.menti-carousel { height: 300px; background: #15171b; }
+.menti-carousel .slide { object-fit: contain; object-position: center; }
+@media (max-width: 720px) { .menti-carousel { height: 240px; } }
+
+/* Display year and project status side by side. */
+.project-tags { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
+.project-tags .status-badge { margin-top: 14px; }
+
+/* Computer vision project: show portrait photo and video without cropping. */
+.computer-vision-carousel { height: 300px; background: #15171b; }
+.computer-vision-carousel .slide { object-fit: contain; object-position: center; }
+@media (max-width: 720px) { .computer-vision-carousel { height: 240px; } }
