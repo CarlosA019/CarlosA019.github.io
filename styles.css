@@ -212,3 +212,29 @@ nav { position: relative; z-index: 5; }
     height: 300px;
   }
 }
+
+/* Compact activity counters: keep this quieter than the project cards. */
+.portfolio-activity {
+  padding: 25px 0 48px;
+  border-top: 1px solid var(--line);
+}
+.activity-heading {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 24px;
+}
+.activity-number { color: #ff6a00; font-size: 12px; font-weight: 700; }
+.activity-label { color: #bfc1c8; font-size: 11px; letter-spacing: .14em; }
+.activity-rule { flex: 1; height: 1px; background: var(--line); }
+.activity-stats { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 22px; }
+.activity-stat { display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+.activity-value { font-size: clamp(29px, 3.2vw, 43px); line-height: 1.1; font-weight: 650; letter-spacing: -.05em; font-variant-numeric: tabular-nums; }
+.activity-name { color: #c1c3c9; font-size: 12px; }
+.activity-period { color: #777b85; font-size: 11px; }
+@media (max-width: 480px) {
+  .activity-stats { gap: 10px; }
+  .activity-value { font-size: 30px; }
+  .activity-name { font-size: 11px; }
+  .activity-period { font-size: 10px; }
+}

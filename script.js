@@ -1,4 +1,4 @@
-/* TODO MEDIA: Consider moving base64 photos/videos to an assets/ folder so the HTML loads faster and is easier to maintain. */
+/* Carousel controls and activity counters */
 (function () {
   document.querySelectorAll('.carousel').forEach(function (gallery) {
     const slides = Array.from(gallery.querySelectorAll('.slide'));
@@ -46,4 +46,31 @@
     reduceMotion.addEventListener('change', function () { render(index); });
     render(0);
   });
+})();
+
+(function () {
+  const github = document.getElementById('github-contributions');
+  const leetcode = document.getElementById('leetcode-solved');
+  if (!github || !leetcode) return;
+
+  // This file will eventually be refreshed by GitHub Actions.
+  fetch('./stats.json', { cache: 'no-cache' })
+    .then(function (response) {
+      if (!response.ok) throw new Error('Stats unavailable');
+      return response.json();
+    })
+    .then(function (stats) {
+      const valid = function (value) {
+        return Number.isSafeInteger(value) && value >= 0;
+      };
+      if (valid(stats.githubContributions30d)) {
+        github.textContent = stats.githubContributions30d.toLocaleString('en-US');
+      }
+      if (valid(stats.leetcodeSolvedTotal)) {
+        leetcode.textContent = stats.leetcodeSolvedTotal.toLocaleString('en-US');
+      }
+    })
+    .catch(function () {
+      // Leave placeholders if stats.json is unavailable or malformed.
+    });
 })();
