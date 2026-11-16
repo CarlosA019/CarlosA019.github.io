@@ -1,0 +1,3 @@
+Double-click index.html to open the complete site in Safari. Includes your latest resume, a left-aligned name, and CAD sketches. Scroll to see the enlarged drone shrink and fly out.
+
+For activity counters, serve this folder with python3 -m http.server 8000 and open http://localhost:8000.
