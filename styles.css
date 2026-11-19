@@ -149,25 +149,6 @@ h1 span { color: var(--fg); }
 .education-heading .eyebrow { color: white; font-size: 11px; }
 .education-heading h2 { color: white; font-size: 29px; font-weight: 550; line-height: 1.25; }
 .education-graduation { color: white; font-size: 15px; margin-top: 13px; }
-.education-badges {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
-  margin-top: 16px;
-}
-.education-badge {
-  display: block;
-  width: 144px;
-  max-width: 100%;
-  border-radius: 8px;
-}
-.education-badge img {
-  display: block;
-  width: 100%;
-  height: auto;
-  border-radius: inherit;
-}
-.education-badge:hover { outline: 1px solid currentColor; outline-offset: 3px; }
 .education-content h3 { color: white; font-size: 21px; font-weight: 500; margin-bottom: 17px; }
 .course-list { color: white; font-size: 16px; line-height: 1.65; }
 .course-list li { margin: 7px 0; }
